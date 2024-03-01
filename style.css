@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+    color: #fff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 250px;
+    border: 2px solid orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 0px;
+    align-items: center;
+    border-radius: 12px;
+}
+.card > img{
+    border-radius: 12px;
+    width: 95%;
+    height: 80%;
+}
+
+.followers{
+    font-family: Arial, Helvetica, sans-serif;
+}
